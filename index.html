@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="page.css">
+<script src="myscript.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+     <span class="menuline" onclick="openNav()">&#9776;</span>
+        <h1>Full Stack Web Development</h1>
+        <p>Want to learn web development? Here you can learn web development for free.</p>
+        <button id="sign" onclick="openSignup()">Sign Up</button>
+
+        <div class="popup_form" id="my_form">
+          <form action="" class="form_container">
+          <button id="cross" onclick="close_btn()">&times;</button>
+          <h1>Sign Up</h1>
+          <p>Register with us to get offers, support and more</p>
+          <label>Name</label>
+          <input type="text" placeholder="Enter Name">
+        
+          <label>Password</label>
+          <input type="password" placeholder="Enter Password">
+        
+          <label for="">Confirm Password</label>
+          <input type="password" placeholder="Confirm Password">
+          <button type="submit" class="login_btn">Submit</button>
+        </form>
+        </div>
+
+</header>
+
+<aside class="sidenav" id="mySidenav">
+  <span class="closebtn" onclick="closeNav()">&times;</span>
+  <a href="">Home</a>
+  <a href="">Portfolio</a>
+  <a href="">Blog</a>
+  <a href="">Contact Me</a>
+
+</aside>
+
+<main class="main">
+        <h2>What is Web development?</h2>
+        <p>In the process of Web Development, Developers build web pages and applications for either the Intranet, a private network, or the Internet. Web Development does not necessarily focus on a website’s design; rather, it is majorly concerned with the programming and coding part, which is the main reason for the functioning of the website.</p>
+         <h2>Tell Me More</h2>
+   <p> It refers to developing and maintaining web pages, including bits and pieces of concepts like web design, web programming, web publishing, and database management. Further, it includes various types of web content creation tools and techniques such as text editors for manually coding the websites, Dreamweaver for developing a web page, using a blogging website to update blogs, and more</p>
+    <h2>Layers of Web Development</h2>
+<p>The Web Development process can broadly be defined in the following three layers: <br> <br>
+
+  1. Frontend Web Development <br>
+  2. Backend Web Development <br>
+  3. Full Stack Web Development</p>
+</main>
+  </div> 
+
+</body>
+</html>
